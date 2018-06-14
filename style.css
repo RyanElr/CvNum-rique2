@@ -7,6 +7,7 @@ body
   background-size: cover;
   background-position: center;
   width: 100%;
+  background-image: rgba(0, 0, 0, 0.7);
 }
 .bc1
 {
@@ -33,37 +34,30 @@ h1
 ul
 {
   font-size: 25px;
-  color: #008FB3;
+  color: #009999;
   text-shadow: 1px 1px 1px black;
-  background-color: black;
-  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 p
 {
   font-size: 25px;
-  color: #ff9900;
+  color: #009999;
   text-shadow: 2px 2px 2px black;
-
-}.list-unstyled {
-
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0.5px 0.5px #8533ff, 0.5em 0 0.7em #8533ff, -0.5em 0 0.7em #8533ff;
+}
+.list-unstyled {
     padding-left: 0;
     list-style: none;
-
 }
 ol, ul {
-
     margin-top: 0;
     margin-bottom: 10px;
-
 }
-
 .blue-bg {
-
     color: white;
-
 }
 body {
-
     font-family: 'Reactor7', monospace;
     text-shadow: 1px 1px 1px rgba(20,20,20,1);
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -71,7 +65,6 @@ body {
     line-height: 1.42857143;
     color: #333;
   }
-
 h2
 {
   text-shadow: 2px 2px 4px black;
@@ -79,7 +72,6 @@ h2
   color: #ff5050;
   width: 100%;
   box-shadow: 0.5px 0.5px #8533ff, 0.5em 0 0.7em #8533ff, -0.5em 0 0.7em #8533ff;
-
 }
 .starter-template {
 
@@ -91,12 +83,7 @@ h2
   color: #8533ff;
   font-size: 50px;
   text-align: center;
-}
-li{
-  opacity: 0.9
-}
-.ofset-3{
-  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .nav{
   background-color: #00141A
